@@ -1,0 +1,225 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "PoppinsRegular";
+  src: local("PoppinsRegular"),
+    url("./fonts/Poppins-Regular.ttf") format("opentype");
+  font-weight: normal;
+}
+.poppinsRegular {
+  font-family: PoppinsRegular;
+}
+
+@font-face {
+  font-family: "italic";
+  src: local("italic"), url("./fonts/Poppins-Italic.ttf") format("opentype");
+  font-weight: normal;
+}
+.italic {
+  font-family: italic;
+}
+
+@font-face {
+  font-family: "PoppinsSemiBold";
+  src: local("PoppinsSemiBold"),
+    url("./fonts/Poppins-SemiBold.ttf") format("opentype");
+  font-weight: normal;
+}
+.poppinsSemiBold {
+  font-family: PoppinsSemiBold;
+}
+
+@font-face {
+  font-family: "PoppinsBold";
+  src: local("PoppinsBold"), url("./fonts/Poppins-Bold.ttf") format("opentype");
+  font-weight: bold;
+}
+.poppinsBold {
+  font-family: PoppinsBold;
+}
+
+@layer utilities {
+  .active {
+    /* Apply background color to highlight */
+    background-color: #f0f0f0;
+    /* Apply text color to highlight */
+    color: #2a9dca;
+    /* Apply underline or any other style to indicate selection */
+    border-bottom: 2px solid #2a9dca;
+    /* Apply padding or margin to provide space around the selected item */
+    padding: 8px 12px;
+    font-family: PoppinsSemiBold;
+    /* Apply any other styles as needed */
+    /* For example, font weight, font size, etc. */
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .popup {
+    display: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(2, 4, 87, 0.842);
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    z-index: 9999;
+  }
+
+  .popup-content {
+    text-align: center;
+  }
+
+  .popup h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .popup button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .popup button:hover {
+    background-color: #0056b3;
+  }
+  .max-comtainer {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+.rotate-45 {
+  @apply rotate-[45deg];
+}
+
+.rotate-90 {
+  @apply rotate-[90deg];
+}
+
+.rotate-135 {
+  @apply rotate-[135deg];
+}
+
+.rotate-180 {
+  @apply rotate-[180deg];
+}
+
+.rotate-225 {
+  @apply rotate-[225deg];
+}
+
+.rotate-270 {
+  @apply rotate-[270deg];
+}
+
+.rotate-315 {
+  @apply rotate-[315deg];
+}
+
+.rotate-360 {
+  @apply rotate-[360deg];
+}
+
+.-rotate-45 {
+  @apply rotate-[-45deg];
+}
+
+.-rotate-90 {
+  @apply rotate-[-90deg];
+}
+
+.-rotate-135 {
+  @apply rotate-[-135deg];
+}
+
+.-rotate-180 {
+  @apply rotate-[-180deg];
+}
+
+.-rotate-225 {
+  @apply rotate-[-225deg];
+}
+
+.-rotate-270 {
+  @apply rotate-[-270deg];
+}
+
+.-rotate-315 {
+  @apply rotate-[-315deg];
+}
+
+.-rotate-360 {
+  @apply rotate-[-360deg];
+}
+
+@media (min-width: 1281px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+}

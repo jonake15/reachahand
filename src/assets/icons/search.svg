@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.942" height="26.521" viewBox="0 0 24.942 26.521">
+  <g id="search" transform="translate(0 0.008)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(0.133 -0.008)" fill="none" stroke="#387981" stroke-width="3">
+      <ellipse cx="11.094" cy="10.95" rx="11.094" ry="10.95" stroke="none"/>
+      <ellipse cx="11.094" cy="10.95" rx="9.594" ry="9.45" fill="none"/>
+    </g>
+    <line id="Line_6" data-name="Line 6" x2="6" y2="6" transform="translate(16.821 18.392)" fill="none" stroke="#387981" stroke-linecap="round" stroke-width="3"/>
+  </g>
+</svg>

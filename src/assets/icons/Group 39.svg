@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <g id="Group_39" data-name="Group 39" transform="translate(-129 -564)">
+    <rect id="Rectangle_51" data-name="Rectangle 51" width="55" height="55" rx="10" transform="translate(129 564)" fill="#fff"/>
+    <path id="Rectangle_51_-_Outline" data-name="Rectangle 51 - Outline" d="M10,1a9.01,9.01,0,0,0-9,9V45a9.01,9.01,0,0,0,9,9H45a9.01,9.01,0,0,0,9-9V10a9.01,9.01,0,0,0-9-9H10m0-1H45A10,10,0,0,1,55,10V45A10,10,0,0,1,45,55H10A10,10,0,0,1,0,45V10A10,10,0,0,1,10,0Z" transform="translate(129 564)"/>
+    <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" d="M14.753,14.772l.729-4.753h-4.56V6.935A2.376,2.376,0,0,1,13.6,4.368h2.073V.321A25.283,25.283,0,0,0,11.995,0C8.239,0,5.784,2.276,5.784,6.4V10.02H1.609v4.753H5.784v11.49h5.138V14.772Z" transform="translate(147.391 578)" fill="#4c9ae9"/>
+  </g>
+</svg>
